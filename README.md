@@ -34,8 +34,12 @@ It scrapes the following fields:
    ```
    git clone https://github.com/Zubdata/SERP-Eagle.git
    ```
-2. Set the necessary variables in `variables.py`.
-3. Run the `main.py` script.
+2. Install the required dependencies using following command:
+   ```
+   pip install -r requirements.txt
+   ```
+4. Set the necessary variables in `variables.py`.
+5. Run the `main.py` script.
 
 
 ## Contributions:
