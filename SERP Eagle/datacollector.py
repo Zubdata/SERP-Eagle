@@ -79,7 +79,7 @@ class DataCollector:
                     parent=question, css_selector='[class="CSkcDe"]')
                 answer = self.page_parser.get_hidden_element_text(
                     css_selector='[jsname="yEVEwb"] [class="wDYxhc"]', parent=question)
-                print(type(answer))
+                
 
                 people_also_ask_data_list.append({
                     "Question": question_text,
