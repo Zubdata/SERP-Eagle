@@ -34,7 +34,7 @@ It scrapes the following fields:
    ```
    git clone https://github.com/Zubdata/SERP-Eagle.git
    ```
-2. Install the required dependencies using following command:
+2. Install the required dependencies using the following command:
    ```
    pip install -r requirements.txt
    ```
@@ -44,3 +44,6 @@ It scrapes the following fields:
 
 ## Contributions:
 If you encounter any errors, please open an issue or, if you can, resolve the error and open a pull request. Additionally, if you have ideas for adding more features, your contributions are welcome.
+
+## Important:
+We'll keep improving SERP Eagle by adding new features. Your feedback is crucial in helping us make it better. If you have ideas for new features, please share them with us.
