@@ -2,6 +2,8 @@
 
 Welcome to SERP Eagle!
 
+Read its documentation [here](https://zubdata.com/tools/serp-eagle/)
+
 ## What is SERP Eagle?
 SERP Eagle is an open-source Google Search Results Scraper written in Python.
 
@@ -15,7 +17,7 @@ It scrapes the following fields:
 
 <img src="Readme assets\organic results.jpg" alt="organic results serp eagle">
 
-- Related 
+- Related queries
 
 <img src="Readme assets\related searches.jpg" alt="related searches serp eagle">
 
@@ -30,7 +32,7 @@ It scrapes the following fields:
 ## How to use it:
 1. Clone the repository using the following command:
    ```
-   git clone <repository_url>
+   git clone https://github.com/Zubdata/SERP-Eagle.git
    ```
 2. Set the necessary variables in `variables.py`.
 3. Run the `main.py` script.
