@@ -49,6 +49,6 @@ If you encounter any errors, please open an issue or, if you can, resolve the er
 We'll keep improving SERP Eagle by adding new features. Your feedback is crucial in helping us make it better. If you have ideas for new features, please share them with us.
 
 ## Buy me a coffee☕
-If you find my Google Maps scraper project helpful, consider supporting me with a coffee! Your contribution will help fuel late-night coding sessions and keep the code flowing. Every coffee is greatly appreciated and goes a long way in supporting the development of more useful tools and resources. Thank you for your generosity!
+If you find my SERP Eagle project helpful, consider supporting me with a coffee! Your contribution will help fuel late-night coding sessions and keep the code flowing. Every coffee is greatly appreciated and goes a long way in supporting the development of more useful tools and resources. Thank you for your generosity!
 
 [![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?slug=zubdata&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/zubdata)
