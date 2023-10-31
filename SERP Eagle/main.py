@@ -5,6 +5,8 @@ import logging
 from datacollector import DataCollector
 from variables import SEARCH_QUERY, DEFAULT_TIMEOUT, SLEEP_TIME, TIMEOUT_FOR_PAGE_LOAD, HEADLESS
 from playwright_stealth import stealth_sync
+from variables import PROXIES
+
 
 DEFAULT_TIMEOUT = DEFAULT_TIMEOUT*1000
 TIMEOUT_FOR_PAGE_LOAD = TIMEOUT_FOR_PAGE_LOAD *1000
@@ -84,7 +86,14 @@ class GoogleBot:
 
         with sync_playwright() as p:
 
-            browser = p.chromium.launch(headless=HEADLESS)
+            if PROXIES != None:
+
+                browser = p.chromium.launch(headless=HEADLESS, proxy=PROXIES)
+
+            else:
+                browser = p.chromium.launch(headless=HEADLESS)
+
+
             self.page = browser.new_page()
             stealth_sync(self.page)
             self.page.set_default_timeout(DEFAULT_TIMEOUT)
