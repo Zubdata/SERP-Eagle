@@ -7,6 +7,10 @@ Read its documentation [here](https://zubdata.com/tools/serp-eagle/)
 ## What is SERP Eagle?
 SERP Eagle is an open-source Google Search Results Scraper written in Python.
 
+## Update
+
+You can now use proxies in it, just set details of proxies in the `PROXIES` variable in `variables.py` file.
+
 ## What data does it scrape?
 It scrapes the following fields:
 - Paid (Ad) Results
@@ -38,6 +42,12 @@ It scrapes the following fields:
    ```
    pip install -r requirements.txt
    ```
+
+3. Install `Chromium` browser by using this command:
+   ```
+   playwright install chromium
+   ```
+
 4. Set the necessary variables in `variables.py`.
 5. Run the `main.py` script.
 
